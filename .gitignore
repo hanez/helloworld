@@ -1,6 +1,7 @@
 # Project based
 helloworld
 *.bak
+*.swp
 
 # Prerequisites
 *.d

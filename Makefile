@@ -6,7 +6,7 @@ debug:clean
 stable:clean
 	$(CC) $(CFLAGS) -o helloworld helloworld.c
 asm:clean
-	yasm -f elf -o helloworld helloworld.asm
-	chmod +x helloworld
+	yasm -f elf -o helloasm helloworld.asm
+	chmod +x helloasm
 clean:
-	rm -vfr *~ helloworld
+	rm -vfr *~ helloworld helloasm
